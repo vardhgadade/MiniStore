@@ -5,7 +5,7 @@ import './App.css';
 import Cart from "./Cart";
 import Products from "./Products";
 import Home from './Home';
-import ProductDetails from './ProductDetails'; 
+import ProductDetails from "./productdetails" 
 import { Provider } from 'react-redux';
 import appStore from './Redux/Store';
 
