@@ -18,9 +18,14 @@ let Header = () => {
   return (
     <header className="w-full flex items-center justify-between p-4 shadow-md fixed top-0 left-0 bg-white z-50">
       {/* Logo */}
-      <div className="logo-container h-[40px] w-[40px] flex items-center justify-center text-2xl">
-        🛒
-      </div>
+      <div className="logo-container h-[60px] w-[60px] flex items-center justify-center">
+  <img 
+    src="./logo.jpg"
+    alt="Logo" 
+    className="h-full w-full object-contain" 
+  />
+</div>
+
 
       {/* Navigation Items */}
       <nav>
